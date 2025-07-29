@@ -1,0 +1,14 @@
+path: C:/Users/admin/Downloads/India Traffic Sign.v7i.yolov8888888
+train: train/images
+val: valid/images
+test: test/images 
+
+nc: 63
+names: ['All Motor Vehicle Prohibited', 'Barrier Ahead', 'Bullock And Handcart Prohibited', 'Compulsary Ahead', 'Compulsary Cycle Track', 'Compulsary Keep Left', 'Compulsary Keep Right', 'Compulsary Sound Horn', 'Compulsary Turn Left', 'Compulsary Turn Right', 'Cross Road', 'Cycle Prohibited', 'Give Way', 'Height Limit', 'Horn Prohibited', 'Horse Car Prohibited', 'Left And Right Lanes', 'Left Hair Pin Bend', 'Left Hand Curve', 'Left Reverse Bend', 'Left Turn Prohibited', 'Major Road Ahead', 'Men At Work', 'Narrow Bridge', 'Narrow Road Ahead', 'Narrow Road Left Ahead', 'Narrow Road Right  Ahead', 'No Entry', 'No Heavy Vehicles', 'No Parking', 'No Stopping', 'Overtaking Prohibited', 'Pedestrian Crossing', 'Pedestrian Prohibited', 'Right Hair Pin Bend', 'Right Hand Curve', 'Right Reverse Bend', 'Right Turn', 'Right Turn Prohibited', 'River Bank Road', 'Road Wideness Ahead', 'Roundabout', 'School Ahead', 'Side Road Left', 'Side Road Right', 'Slippery Road', 'Sound Horn', 'Speed Breaker', 'Speed Limit', 'Staggered Intersection', 'Steep', 'Steep Ascent', 'Steep Slope Caution', 'Stop', 'Straight Prohibited', 'T Junction', 'Traffic  Signal', 'Train Rail Transport Traffic Sign', 'Two Way Signs', 'U Turn Prohibited', 'Water Warning Sign', 'Width Limit', 'Y Intersection']
+
+roboflow:
+  workspace: college-opfvn
+  project: india-traffic-sign
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/college-opfvn/india-traffic-sign/dataset/7
